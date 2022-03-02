@@ -1,0 +1,21 @@
+{
+  "attestations": {
+    "idTokens": [
+      {
+        "mapping": {
+          "firstName": { "claim": "given_name", "indexed": true},
+          "lastName": { "claim": "family_name" }
+        },
+        "configuration": "https://login.microsoftonline.com/96e3b224-f695-46dc-9059-4b91222d3493/v2.0/.well-known/openid-configuration",
+        "client_id": "4c3790b5-18d7-4d9b-a124-0f9cbb4fa193",
+        "redirect_uri": "vcclient://openid",
+        "scope": "openid profile"
+      }
+    ]
+  },
+  "validityInterval": 2592000,
+  "credentialStatusConfiguration": "anonymous",
+  "vc": {
+    "type": ["Alumni"]
+  }
+}

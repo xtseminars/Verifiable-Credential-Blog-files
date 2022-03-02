@@ -1,0 +1,34 @@
+{
+  "default": {
+    "locale": "en-US",
+    "card": {
+      "title": "Conference Keynote",
+      "issuedBy": "XTSeminars",
+      "backgroundColor": "#4472C4",
+      "textColor": "#FFFFFF",
+      "logo": {
+        "uri": "https://credentialfiles.blob.core.windows.net/images/xtslogo.png",
+        "description": "XTSeminar logo"
+      },
+      "description": "Identity Conference 2022"
+    },
+    "consent": {
+      "title": "Do you want to get your Conference Keynote card?",
+      "instructions": "Add you details for the Competition draw"
+    },
+    "claims": {
+      "vc.credentialSubject.session": {
+        "type": "String",
+        "label": "Session"
+      },
+      "vc.credentialSubject.email": {
+        "type": "String",
+        "label": "Registration email"
+      },
+      "vc.credentialSubject.code": {
+        "type": "String",
+        "label": "Session Code"
+      }
+    }
+  }
+}

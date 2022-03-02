@@ -1,0 +1,30 @@
+{
+  "default": {
+    "locale": "en-US",
+    "card": {
+      "title": "Masterclass Alumni",
+      "issuedBy": "XTseminars",
+      "backgroundColor": "#66bbbb",
+      "textColor": "#FFFFFF",
+      "logo": {
+        "uri": "https://vccredentialfiles.blob.core.windows.net/images/xtslogo.png",
+        "description": "XTSeminars Logo"
+      },
+      "description": "Use this verifiable credential to show your Masterclass Alumni status"
+    },
+    "consent": {
+      "title": "Do you want to get your Verified Credential Masterclass Alumni card?",
+      "instructions": "Sign in with your account to get your card."
+    },
+    "claims": {
+      "vc.credentialSubject.firstName": {
+        "type": "String",
+        "label": "First name"
+      },
+      "vc.credentialSubject.lastName": {
+        "type": "String",
+        "label": "Last name"
+      }
+    }
+  }
+}

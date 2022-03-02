@@ -1,0 +1,34 @@
+{
+  "default": {
+    "locale": "en-US",
+    "card": {
+      "title": "CompoundCard",
+      "issuedBy": "XTseminars",
+      "backgroundColor": "#3ec262",
+      "textColor": "#FFFFFF",
+      "logo": {
+        "uri": "https://xtsvcstorage.blob.core.windows.net/cardlogos/xtslogo.png",
+        "description": "XTSeminars Logo"
+      },
+      "description": "Use this verifiable credential to show your name and email"
+    },
+    "consent": {
+      "title": "",
+      "instructions": "Aprove to get your card."
+    },
+    "claims": {
+      "vc.credentialSubject.first_name": {
+        "type": "String",
+        "label": "First name"
+      },
+      "vc.credentialSubject.last_name": {
+        "type": "String",
+        "label": "Last name"
+      },
+	"vc.credentialSubject.email": {
+        "type": "String",
+        "label": "Email"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "attestations": {
+    "presentations": [
+      {
+        "mapping": {
+          "email": {
+            "claim": "$.vc.credentialSubject.email"
+          }
+        },
+        "credentialType": "ConferenceSession",
+        "contracts": [
+          "https://beta.eu.did.msidentity.com/v1.0/5829db01-9eab-49dd-a54b-e2874ca92101/verifiableCredential/contracts/ConferenceSession"
+        ],
+        "issuers": [
+          {
+            "iss": "did:ion:EiCPS4olrn7WnASaQv0qBdykljZ9eUUz8UE-NaLT95cWFQ:eyJkZWx0YSI6eyJwYXRjaGVzIjpbeyJhY3Rpb24iOiJyZXBsYWNlIiwiZG9jdW1lbnQiOnsicHVibGljS2V5cyI6W3siaWQiOiJzaWdfY2RmZDE2MDUiLCJwdWJsaWNLZXlKd2siOnsiY3J2Ijoic2VjcDI1NmsxIiwia3R5IjoiRUMiLCJ4IjoickRhZ3BvVF9ycFZKemtRTVhqb1FjTlNlRmJzSnNDS1ZGZGlrbXZrTU5SSSIsInkiOiJFME5oeG9wd3RNWGNvWnJkYlY5NHl5SGwtTnlIelp6ZlVjNmNVNzA5N0FzIn0sInB1cnBvc2VzIjpbImF1dGhlbnRpY2F0aW9uIiwiYXNzZXJ0aW9uTWV0aG9kIl0sInR5cGUiOiJFY2RzYVNlY3AyNTZrMVZlcmlmaWNhdGlvbktleTIwMTkifV0sInNlcnZpY2VzIjpbeyJpZCI6ImxpbmtlZGRvbWFpbnMiLCJzZXJ2aWNlRW5kcG9pbnQiOnsib3JpZ2lucyI6WyJodHRwczovL21hc3RlcmNsYXNzLnh0c2h1Yi5jb20vIl19LCJ0eXBlIjoiTGlua2VkRG9tYWlucyJ9LHsiaWQiOiJodWIiLCJzZXJ2aWNlRW5kcG9pbnQiOnsiaW5zdGFuY2VzIjpbImh0dHBzOi8vYmV0YS5odWIubXNpZGVudGl0eS5jb20vdjEuMC81ODI5ZGIwMS05ZWFiLTQ5ZGQtYTU0Yi1lMjg3NGNhOTIxMDEiXX0sInR5cGUiOiJJZGVudGl0eUh1YiJ9XX19XSwidXBkYXRlQ29tbWl0bWVudCI6IkVpQ0QwbGx0d3E1REE1R2ZRNm45dXNsWVAzMlpwaHVmMUl2d0h4NDk5M2dUZWcifSwic3VmZml4RGF0YSI6eyJkZWx0YUhhc2giOiJFaURjdlVjcW91bHdpc003Z2RWUm1PWTNhdThNVVRBTElVMUZxUzFhQ1ZXTzdBIiwicmVjb3ZlcnlDb21taXRtZW50IjoiRWlCeVhKd2tWSjZxcXgwLURFeDViQ1BlX1JBdXZISDlMTmEtT2ZOXzNvOGZJZyJ9fQ"
+          }
+        ]
+      },
+      {
+        "mapping": {
+          "first_name": {
+            "claim": "$.vc.credentialSubject.firstName"
+          },
+          "last_name": {
+            "claim": "$.vc.credentialSubject.lastName"
+          }
+        },
+        "credentialType": "Alumni",
+        "contracts": [
+          "https://beta.eu.did.msidentity.com/v1.0/5829db01-9eab-49dd-a54b-e2874ca92101/verifiableCredential/contracts/Alumni"
+        ],
+        "issuers": [
+          {
+            "iss": "did:ion:EiCPS4olrn7WnASaQv0qBdykljZ9eUUz8UE-NaLT95cWFQ:eyJkZWx0YSI6eyJwYXRjaGVzIjpbeyJhY3Rpb24iOiJyZXBsYWNlIiwiZG9jdW1lbnQiOnsicHVibGljS2V5cyI6W3siaWQiOiJzaWdfY2RmZDE2MDUiLCJwdWJsaWNLZXlKd2siOnsiY3J2Ijoic2VjcDI1NmsxIiwia3R5IjoiRUMiLCJ4IjoickRhZ3BvVF9ycFZKemtRTVhqb1FjTlNlRmJzSnNDS1ZGZGlrbXZrTU5SSSIsInkiOiJFME5oeG9wd3RNWGNvWnJkYlY5NHl5SGwtTnlIelp6ZlVjNmNVNzA5N0FzIn0sInB1cnBvc2VzIjpbImF1dGhlbnRpY2F0aW9uIiwiYXNzZXJ0aW9uTWV0aG9kIl0sInR5cGUiOiJFY2RzYVNlY3AyNTZrMVZlcmlmaWNhdGlvbktleTIwMTkifV0sInNlcnZpY2VzIjpbeyJpZCI6ImxpbmtlZGRvbWFpbnMiLCJzZXJ2aWNlRW5kcG9pbnQiOnsib3JpZ2lucyI6WyJodHRwczovL21hc3RlcmNsYXNzLnh0c2h1Yi5jb20vIl19LCJ0eXBlIjoiTGlua2VkRG9tYWlucyJ9LHsiaWQiOiJodWIiLCJzZXJ2aWNlRW5kcG9pbnQiOnsiaW5zdGFuY2VzIjpbImh0dHBzOi8vYmV0YS5odWIubXNpZGVudGl0eS5jb20vdjEuMC81ODI5ZGIwMS05ZWFiLTQ5ZGQtYTU0Yi1lMjg3NGNhOTIxMDEiXX0sInR5cGUiOiJJZGVudGl0eUh1YiJ9XX19XSwidXBkYXRlQ29tbWl0bWVudCI6IkVpQ0QwbGx0d3E1REE1R2ZRNm45dXNsWVAzMlpwaHVmMUl2d0h4NDk5M2dUZWcifSwic3VmZml4RGF0YSI6eyJkZWx0YUhhc2giOiJFaURjdlVjcW91bHdpc003Z2RWUm1PWTNhdThNVVRBTElVMUZxUzFhQ1ZXTzdBIiwicmVjb3ZlcnlDb21taXRtZW50IjoiRWlCeVhKd2tWSjZxcXgwLURFeDViQ1BlX1JBdXZISDlMTmEtT2ZOXzNvOGZJZyJ9fQ"
+          }
+        ]
+      }
+    ]
+  },
+  "validityInterval": 25920000,
+  "credentialStatusConfiguration": "anonymous",
+  "vc": {
+    "type": [
+      "CompoundCard"
+    ]
+  }
+}
+

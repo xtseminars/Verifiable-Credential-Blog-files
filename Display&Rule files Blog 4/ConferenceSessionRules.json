@@ -1,0 +1,21 @@
+{
+  "vc": {
+    "type": [
+      "ConferenceSession"
+    ],
+    "credentialSubject": {
+      "session": "Keynote with John Craddock"
+    }
+  },
+  "validityInterval": 2592000,
+  "credentialStatusConfiguration": "anonymous",
+  "attestations": {
+    "selfIssued": {
+      "mapping": {
+        "email": {"claim": "Email used for registration", "type": "Text" },
+        "code": { "claim": "Session draw code", "type": "Text"  }
+
+      }
+    }
+  }
+}
